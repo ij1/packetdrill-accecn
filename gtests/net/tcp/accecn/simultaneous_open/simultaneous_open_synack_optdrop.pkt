@@ -3,7 +3,7 @@
 
 `../../common/defaults.sh
 sysctl -q net.ipv4.tcp_timestamps=0
-sysctl -q net.ipv4.tcp_ecn=5
+sysctl -q net.ipv4.tcp_ecn=3
 `
 
     0 socket(..., SOCK_STREAM, IPPROTO_TCP) = 4

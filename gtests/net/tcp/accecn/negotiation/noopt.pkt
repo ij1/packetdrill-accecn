@@ -1,7 +1,7 @@
 // Test basic AccECN negotiation with option off using sysctl
 
 `../../common/defaults.sh
-sysctl -q net.ipv4.tcp_ecn=5
+sysctl -q net.ipv4.tcp_ecn=3
 sysctl -q net.ipv4.tcp_ecn_option=0
 `
 
