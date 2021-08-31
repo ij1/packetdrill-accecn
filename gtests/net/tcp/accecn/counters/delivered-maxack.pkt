@@ -1,7 +1,7 @@
 // Test a large ACK (at ACE field max delta)
 
 `../../common/defaults.sh
-sysctl -q net.ipv4.tcp_ecn=5
+sysctl -q net.ipv4.tcp_ecn=3
 sysctl -q net.ipv4.tcp_ecn_option=0
 `
 
