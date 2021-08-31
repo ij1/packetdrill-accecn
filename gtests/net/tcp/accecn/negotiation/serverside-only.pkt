@@ -1,7 +1,7 @@
 // Test AccECN with sysctl set to server-side only
 
 `../../common/defaults.sh
-sysctl -q net.ipv4.tcp_ecn=4
+sysctl -q net.ipv4.tcp_ecn=5
 `
 
     0 socket(..., SOCK_STREAM, IPPROTO_TCP) = 3

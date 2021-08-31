@@ -1,7 +1,7 @@
-// Test that tcp_ecn=3 uses RFC3168 ECN for SYN
+// Test that tcp_ecn=4 uses RFC3168 ECN for SYN
 
 `../../common/defaults.sh
-sysctl -q net.ipv4.tcp_ecn=3
+sysctl -q net.ipv4.tcp_ecn=4
 `
 
     0 socket(..., SOCK_STREAM, IPPROTO_TCP) = 4

@@ -1,7 +1,7 @@
 // Reflected SYNACK CE mark increases delivered_ce
 
 `../../common/defaults.sh
-sysctl -q net.ipv4.tcp_ecn=5
+sysctl -q net.ipv4.tcp_ecn=3
 sysctl -q net.ipv4.tcp_ecn_fallback=0
 `
 
